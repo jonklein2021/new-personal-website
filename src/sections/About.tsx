@@ -10,7 +10,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-muted-foreground mb-6">
-              I'm a passionate developer with experience in building modern applications. 
+              I'm currently a Software Development Engineer at Amazon. 
               I love creating efficient, scalable solutions and learning new technologies.
             </p>
             <p className="text-lg text-muted-foreground mb-6">

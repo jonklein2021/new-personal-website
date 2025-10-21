@@ -8,8 +8,8 @@ export default function Landing() {
         <DotGrid
           dotSize={8}
           gap={24}
-          baseColor="#301360"
-          activeColor="#461b8a"
+          baseColor="#000f70"
+          activeColor="#0022ff"
           proximity={150}
           speedTrigger={100}
           shockRadius={250}

@@ -12,6 +12,7 @@ npm run dev
 
 ## Additional Credits
 
-Icons are from:
+Icons:
 - Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE
--  Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+- Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+- Streamline color by Streamline - https://creativecommons.org/licenses/by/4.0/
