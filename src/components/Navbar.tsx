@@ -1,4 +1,5 @@
 import React from 'react';
+import ThemeToggle from './ThemeToggle';
 
 interface NavbarProps {
   darkMode: boolean;
@@ -17,12 +18,10 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
           <a href="#experience" className="hover:text-primary">Experience</a>
           <a href="#projects" className="hover:text-primary">Projects</a>
           <a href="#contact" className="hover:text-primary">Contact</a>
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-lg bg-secondary hover:bg-secondary/80"
-          >
-            {darkMode ? '☀️' : '🌙'}
-          </button>
+          <ThemeToggle
+            isToggled={darkMode}
+            handleToggle={() => setDarkMode(!darkMode)}
+          />
         </div>
       </div>
     </nav>

@@ -1,4 +1,5 @@
-import DotGrid from "../components/DotGrid.jsx";
+import DotGrid from "../components/DotGrid.js";
+import TextType from "../components/TextType.js";
 
 export default function Landing() {
   return (
@@ -20,7 +21,13 @@ export default function Landing() {
       </div>
       <div className="relative text-center max-w-4xl z-10 pointer-events-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Hi, I'm <span className="text-primary">Jon Klein</span>
+          <TextType
+            text={["Hi, I'm Jon Klein"]}
+            typingSpeed={100}
+            pauseDuration={1500}
+            showCursor={true}
+            cursorCharacter="_"
+          />
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           Software Engineer & Problem Solver

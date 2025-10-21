@@ -1,6 +1,6 @@
 # Personal Website
 
-A simple modern personal website built on [React](https://react.dev/), [Tailwind](https://tailwindcss.com/), [Vite](https://vite.dev/), and some [shadcn/ui](https://ui.shadcn.com/) components
+A simple modern personal website built using [React](https://react.dev/), [Tailwind](https://tailwindcss.com/), [Vite](https://vite.dev/), and some [shadcn/ui](https://ui.shadcn.com/) components
 
 ## Building Locally
 
