@@ -17,7 +17,7 @@ export default function Experience() {
       title: "Software Engineering Intern",
       company: "Finfolio Inc.",
       period: "May 2024 - Aug 2024",
-      description: "Contributed to .NET codebase of intuitive desktop application for creating financial reports"
+      description: "Developed financial report creation software in .NET"
     },
     {
       title: "Data Science Intern",

@@ -151,7 +151,7 @@ const DotGrid = ({
 
     draw();
     return () => cancelAnimationFrame(rafId);
-  }, [proximity, baseColor, activeRgb, baseRgb, circlePath]);
+  }, [proximity, baseColor, activeColor, activeRgb, baseRgb, circlePath]);
 
   useEffect(() => {
     buildGrid();
